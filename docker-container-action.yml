@@ -9,7 +9,7 @@ inputs:
 
 outputs:
   time: # output id
-    description: 'The time we greet you'
+    description: 'The time we greeted you'
 
 runs:
   using: 'docker'
