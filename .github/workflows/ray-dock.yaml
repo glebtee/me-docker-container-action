@@ -1,4 +1,4 @@
-name: Build and push Winrunner Docker Image to GCR
+name: Ray windows
 
 on: workflow_dispatch
 
