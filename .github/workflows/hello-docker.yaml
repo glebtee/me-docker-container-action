@@ -12,4 +12,7 @@ jobs:
     steps:
     - name: Hello Docker
       shell: pwsh
-      run: docker run hello-world
+      run: |
+        pwd
+        ls
+        docker run hello-world
