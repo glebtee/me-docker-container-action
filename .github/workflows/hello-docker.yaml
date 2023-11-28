@@ -1,0 +1,14 @@
+name: Build and push Winrunner Docker Image to GCR
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-push-docker-image:
+    permissions: write-all
+    runs-on: ["self-hosted", "Windows"]
+    steps:
+    - name: Hello Docker
+      run: docker run hello-world
